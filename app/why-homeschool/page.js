@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Why Homeschool? | Warriors Academy",
-  description: "A deep dive into the history of the American school system and why homeschooling is the superior choice for student athletes.",
+  description: "The hidden history of public education and why homeschooling is the superior path for student athletes.",
 };
 
 export default function WhyHomeschool() {
@@ -15,64 +15,31 @@ export default function WhyHomeschool() {
             Why <span className="text-green-500">Homeschool</span>?
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            The American education system was not designed for your child. It was designed for factories. Here is the full story of how we got here and why homeschooling is the way forward for serious athletes.
+            The system is not broken. It is working exactly as it was designed: to create obedient workers, not independent thinkers. Here is the full story.
           </p>
         </div>
       </section>
 
-      {/* Timeline / History */}
+      {/* The Hidden History */}
       <section className="py-16 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mb-10 text-center">The History of American Public Education</h2>
-
+          <h2 className="text-3xl font-bold mb-10 text-center">The Hidden History of Public Education</h2>
           <div className="space-y-12">
             <div className="border-l-4 border-green-500 pl-6">
-              <h3 className="text-xl font-bold text-green-400">1830s-1850s: The Common School Movement</h3>
-              <p className="text-gray-300 mt-2">
-                Horace Mann championed the common school movement in Massachusetts, pushing for standardized, state-funded education. The goal was civic unity and basic literacy for factory workers during the Industrial Revolution. Schools were designed to produce obedient, punctual workers — not independent thinkers or athletes.
-              </p>
+              <h3 className="text-xl font-bold text-green-400">The Prussian Military Blueprint</h3>
+              <p className="text-gray-300 mt-2">The modern American school system was imported from 19th-century Prussia, a military state that designed its education system to create obedient soldiers and suppress independent thought. This was never about learning. It was about control.</p>
             </div>
-
             <div className="border-l-4 border-green-500 pl-6">
-              <h3 className="text-xl font-bold text-green-400">1892: The Committee of Ten</h3>
-              <p className="text-gray-300 mt-2">
-                A group of educators standardized the high school curriculum into the rigid subject-based system we still use today. This committee decided that every student should learn the same subjects in the same way, regardless of their individual talents, goals, or career aspirations.
-              </p>
+              <h3 className="text-xl font-bold text-green-400">The Industrial Takeover</h3>
+              <p className="text-gray-300 mt-2">Titans like Rockefeller and Carnegie funded the American school system not to educate, but to train children for factory work and what they called "perfect docility." The Carnegie Unit, still used today, rewards kids simply for sitting in a seat for a set number of hours, not for actual mastery of the material.</p>
             </div>
-
             <div className="border-l-4 border-green-500 pl-6">
-              <h3 className="text-xl font-bold text-green-400">Early 1900s: The Factory Model Takes Hold</h3>
-              <p className="text-gray-300 mt-2">
-                Inspired by Prussian military education and Frederick Taylor's factory efficiency principles, American schools adopted bells, rigid schedules, age-based grouping, and assembly-line teaching. Students were sorted, graded, and moved through the system like products on a conveyor belt. This model persists largely unchanged today.
-              </p>
+              <h3 className="text-xl font-bold text-green-400">Early American Literacy Was Higher</h3>
+              <p className="text-gray-300 mt-2">Before compulsory schooling existed, American literacy rates were at 99.6%. Today, after over a century of government-run education and nearly a trillion dollars in annual spending, 45% of high school seniors cannot pass basic math on the NAEP assessment.</p>
             </div>
-
-            <div className="border-l-4 border-green-500 pl-6">
-              <h3 className="text-xl font-bold text-green-400">1950s-1970s: Expansion Without Innovation</h3>
-              <p className="text-gray-300 mt-2">
-                Post-war America expanded public education massively but never questioned the fundamental model. More buildings, more students, more standardized tests — but the same factory approach. Meanwhile, the economy was shifting from manufacturing to knowledge and service-based work.
-              </p>
-            </div>
-
-            <div className="border-l-4 border-green-500 pl-6">
-              <h3 className="text-xl font-bold text-green-400">1983: A Nation at Risk</h3>
-              <p className="text-gray-300 mt-2">
-                The landmark report declared American education was failing. The response? More standardization, more testing, more seat time. No one questioned whether the 130-year-old factory model itself was the problem.
-              </p>
-            </div>
-
-            <div className="border-l-4 border-green-500 pl-6">
-              <h3 className="text-xl font-bold text-green-400">2001-Present: No Child Left Behind & Beyond</h3>
-              <p className="text-gray-300 mt-2">
-                Federal mandates doubled down on standardized testing and rigid curriculum requirements. Schools became focused on test scores rather than actual learning and development. Student athletes were forced into an increasingly rigid system that left zero room for serious athletic training.
-              </p>
-            </div>
-
             <div className="border-l-4 border-red-500 pl-6">
               <h3 className="text-xl font-bold text-red-400">Today: The Breaking Point</h3>
-              <p className="text-gray-300 mt-2">
-                Students spend 6-8 hours per day in classrooms, plus homework, leaving student athletes with almost no time for dedicated training. Mental health issues are skyrocketing. Engagement is at historic lows. The system designed for 1890s factory workers is failing 2020s students in every measurable way.
-              </p>
+              <p className="text-gray-300 mt-2">Students spend 6-8 hours per day in classrooms designed for the 1890s, plus homework, leaving student athletes with almost no time for dedicated training. The system rewards seat time, not learning. It produces compliant workers, not creative thinkers or elite athletes.</p>
             </div>
           </div>
         </div>
@@ -85,19 +52,19 @@ export default function WhyHomeschool() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-gray-700 p-6 rounded-xl">
               <h3 className="text-xl font-bold mb-3">Time Poverty</h3>
-              <p className="text-gray-300">Between 7+ hours of school, homework, and commute time, student athletes are left with maybe 1-2 hours for training. Elite development requires 3-4+ hours of focused practice daily. The math simply does not work in the traditional system.</p>
+              <p className="text-gray-300">Between 7+ hours of school, homework, and commute, athletes have maybe 1-2 hours for training. Our athletes get up to 4 hours of elite training daily because academics are completed in focused 3-5 hour blocks.</p>
             </div>
             <div className="bg-gray-700 p-6 rounded-xl">
               <h3 className="text-xl font-bold mb-3">Physical Exhaustion</h3>
-              <p className="text-gray-300">Sitting for 7-8 hours creates physical fatigue, poor posture, and reduced athletic performance. By the time practice starts, athletes are mentally and physically drained from a day of passive sitting.</p>
+              <p className="text-gray-300">Sitting 7-8 hours creates fatigue, poor posture, and reduced performance. By practice time, athletes are mentally and physically drained. Our model trains athletes when they are fresh and focused.</p>
             </div>
             <div className="bg-gray-700 p-6 rounded-xl">
-              <h3 className="text-xl font-bold mb-3">No Personalization</h3>
-              <p className="text-gray-300">Every student gets the same schedule, same pace, same approach. An athlete who excels at math but needs more time in reading gets no flexibility. The system treats all students as identical.</p>
+              <h3 className="text-xl font-bold mb-3">The Carnegie Unit Trap</h3>
+              <p className="text-gray-300">Public schools still use the Carnegie Unit, which rewards students for sitting in a seat for a set number of hours, not for actual mastery. Our students master the material and move on.</p>
             </div>
             <div className="bg-gray-700 p-6 rounded-xl">
-              <h3 className="text-xl font-bold mb-3">Zero Entrepreneurship</h3>
-              <p className="text-gray-300">Public schools teach students to be employees, not entrepreneurs. Athletes have short career windows and need financial literacy and business skills that the traditional system completely ignores.</p>
+              <h3 className="text-xl font-bold mb-3">Zero Life Skills</h3>
+              <p className="text-gray-300">Public schools teach kids to be employees, not entrepreneurs. Our students launch real businesses, learn AI, financial literacy, and build wealth beyond the court.</p>
             </div>
           </div>
         </div>
@@ -106,67 +73,76 @@ export default function WhyHomeschool() {
       {/* The Homeschool Advantage */}
       <section className="py-16 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mb-8 text-center">The <span className="text-green-500">Homeschool</span> Advantage for Athletes</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center">The <span className="text-green-500">Homeschool</span> Advantage</h2>
           <div className="space-y-6">
             <div className="flex gap-4 items-start">
               <div className="text-green-500 text-2xl font-bold mt-1">01</div>
               <div>
-                <h3 className="text-xl font-bold">Flexible Schedule</h3>
-                <p className="text-gray-300">Complete academics in focused 4-5 hour blocks, freeing up the rest of the day for elite-level basketball training, film study, and skill development.</p>
+                <h3 className="text-xl font-bold">Academic Dominance in Half the Time</h3>
+                <p className="text-gray-300">Homeschoolers study just 3-5 hours per day yet consistently score in the 65th-80th percentile on standardized tests, crushing the public school 50th percentile average. Average SAT: 1190 vs 1060. Average ACT: 26.5 vs 21.0.</p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
               <div className="text-green-500 text-2xl font-bold mt-1">02</div>
               <div>
-                <h3 className="text-xl font-bold">Personalized Learning</h3>
-                <p className="text-gray-300">Every student learns at their own pace with curriculum tailored to their strengths and needs. No waiting for 30 other students to catch up. No being held back by a rigid class schedule.</p>
+                <h3 className="text-xl font-bold">College Ready</h3>
+                <p className="text-gray-300">87% college acceptance rate vs 68% for public school. Higher first-year GPA (3.41 vs 3.12) and a 66.7% four-year graduation rate vs 57.5% nationally.</p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
               <div className="text-green-500 text-2xl font-bold mt-1">03</div>
               <div>
-                <h3 className="text-xl font-bold">Real-World Education</h3>
-                <p className="text-gray-300">Instead of memorizing facts for standardized tests, students learn entrepreneurship, financial literacy, leadership, and practical skills they will actually use in life.</p>
+                <h3 className="text-xl font-bold">Superior Social Development</h3>
+                <p className="text-gray-300">The socialization myth is dead. 87% of peer-reviewed studies prove homeschool students perform significantly better than public school peers in social, emotional, and psychological development.</p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
               <div className="text-green-500 text-2xl font-bold mt-1">04</div>
               <div>
                 <h3 className="text-xl font-bold">Missouri Compliant</h3>
-                <p className="text-gray-300">Missouri homeschool law allows parents to educate their children with flexibility. Our co-op model meets all 1,000 hours of instruction requirements while covering required subjects including math, reading, social studies, English, and science.</p>
+                <p className="text-gray-300">Our 4-day co-op model meets all Missouri homeschool requirements including 1,000 hours of instruction covering math, reading, social studies, English, and science.</p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
               <div className="text-green-500 text-2xl font-bold mt-1">05</div>
               <div>
-                <h3 className="text-xl font-bold">Proven Results</h3>
-                <p className="text-gray-300">Homeschooled students consistently outperform public school peers on standardized tests, have higher college graduation rates, and report greater life satisfaction. For athletes, the additional training time can be the difference between playing in college or not.</p>
+                <h3 className="text-xl font-bold">Christ-Centered Foundation</h3>
+                <p className="text-gray-300">Everything we do is rooted in faith. We blend spiritual growth with athletic achievement, requiring players to apply biblical principles in daily life alongside community outreach and mission projects.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Stats Section */}
+      {/* Elite Athletes Who Homeschooled */}
       <section className="bg-gray-800 py-16 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mb-10 text-center">Homeschooling by the Numbers</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-            <div>
-              <div className="text-4xl font-black text-green-500">3.7M</div>
-              <p className="text-gray-400 mt-2">Students homeschooled in the US</p>
+          <h2 className="text-3xl font-bold mb-6 text-center">Elite Athletes Who <span className="text-green-500">Homeschooled</span></h2>
+          <p className="text-gray-300 text-center mb-10">Escaping the classroom is the proven path to elite athletic development.</p>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <div className="bg-gray-700 p-4 rounded-xl text-center">
+              <p className="font-bold">Tim Tebow</p>
+              <p className="text-gray-400 text-sm">Heisman Trophy Winner, NFL QB. Has a law named after him protecting homeschool sports access.</p>
             </div>
-            <div>
-              <div className="text-4xl font-black text-green-500">15-30%</div>
-              <p className="text-gray-400 mt-2">Higher test scores vs public school averages</p>
+            <div className="bg-gray-700 p-4 rounded-xl text-center">
+              <p className="font-bold">Blake Griffin</p>
+              <p className="text-gray-400 text-sm">#1 NBA Draft Pick, 6x All-Star. Homeschooled by his mother through 7th grade.</p>
             </div>
-            <div>
-              <div className="text-4xl font-black text-green-500">67%</div>
-              <p className="text-gray-400 mt-2">College graduation rate vs 59% national average</p>
+            <div className="bg-gray-700 p-4 rounded-xl text-center">
+              <p className="font-bold">Simone Biles</p>
+              <p className="text-gray-400 text-sm">Most decorated US gymnast. 11 Olympic medals. Homeschooled for elite training.</p>
             </div>
-            <div>
-              <div className="text-4xl font-black text-green-500">3-4hrs</div>
-              <p className="text-gray-400 mt-2">Extra training time available daily</p>
+            <div className="bg-gray-700 p-4 rounded-xl text-center">
+              <p className="font-bold">Venus and Serena Williams</p>
+              <p className="text-gray-400 text-sm">23 combined Grand Slam titles. Homeschooled by their father around training.</p>
+            </div>
+            <div className="bg-gray-700 p-4 rounded-xl text-center">
+              <p className="font-bold">Shaun White</p>
+              <p className="text-gray-400 text-sm">3x Olympic Gold Medalist. Homeschooled to train 10 hours a day starting at age 6.</p>
+            </div>
+            <div className="bg-gray-700 p-4 rounded-xl text-center">
+              <p className="font-bold">Maria Sharapova</p>
+              <p className="text-gray-400 text-sm">5 Grand Slam titles. Homeschooled to accommodate professional tennis development.</p>
             </div>
           </div>
         </div>
@@ -175,10 +151,9 @@ export default function WhyHomeschool() {
       {/* CTA */}
       <section className="py-20 px-4 text-center">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl font-bold mb-6">Ready to Break Free from the <span className="text-red-500">Factory Model</span>?</h2>
-          <p className="text-gray-300 text-lg mb-8">
-            Warriors Academy gives your athlete the time, training, and education they deserve. Stop fitting your child into a system that was never designed for them.
-          </p>
+          <h2 className="text-3xl font-bold mb-4">Ready to Break Free?</h2>
+          <p className="text-gray-300 text-lg mb-3 italic">"Whatever you do, work at it with all your heart, as working for the Lord." - Colossians 3:23</p>
+          <p className="text-gray-300 text-lg mb-8">Warriors Academy gives your athlete the time, training, and Christ-centered education they deserve. Stop fitting your child into a system that was never designed for them.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/#apply" className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-lg transition">
               Apply Now
