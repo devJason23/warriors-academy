@@ -183,16 +183,16 @@ export default function Home() {
       <section className="bg-gray-900 text-white py-20 px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
-            Why Basketball Players <span className="text-green-500">Play Golf</span>
+            Our Secret Weapon for Your <span className="text-green-500">Mental Game</span>
           </h2>
           <p className="text-gray-300 text-lg text-center mb-8 max-w-3xl mx-auto">
-            Caitlin Clark, the record-breaking Iowa basketball star, credits golf with building her clutch mental performance. When it is just you, the ball, and your clubs, there are no teammates to pass to if your shot is not falling. That is why every Warriors athlete completes a mandatory 6-week golf season.
+            Caitlin Clark credits golf with sharpening her mental toughness, saying when she has a bad shot on the course, it is all on her with no teammates to lean on. Steph Curry famously hit the golf course after a tough playoff loss instead of the gym, then dropped 45 points the next game. Research from Frontiers in Psychology shows individual sports build self-efficacy and autonomous emotional regulation, while the APA found mental resilience can boost performance by 23 percent. That is why every Warriors athlete completes a mandatory golf season.ch mental performance. When it is just you, the ball, and your clubs, there are no teammates to pass to if your shot is not falling. That is why every Warriors athlete completes a mandatory 6-week golf season.
           </p>
           <div className="grid md:grid-cols-3 gap-6 mb-10">
             <div className="bg-gray-800 p-6 rounded-xl text-center">
               <div className="text-4xl mb-3">&#9971;</div>
               <h3 className="text-lg font-bold mb-2">Mental Toughness</h3>
-              <p className="text-gray-400 text-sm">Golf teaches athletes to perform under pressure when it is just them and the moment. No teammates, no excuses.</p>
+              <p className="text-gray-400 text-sm">Neuroimaging research shows individual sport athletes develop enhanced prefrontal-limbic connectivity, acting as emotional circuit breakers that restore focus under pressure. Golf demands 4-plus hours of sustained concentration, training the same full-game awareness needed in the fourth quarter. it is just them and the moment. No teammates, no excuses.</p>
             </div>
             <div className="bg-gray-800 p-6 rounded-xl text-center">
               <div className="text-4xl mb-3">&#129309;</div>
