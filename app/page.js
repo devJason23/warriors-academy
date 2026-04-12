@@ -56,7 +56,7 @@ export default function Home() {
             <div className="bg-green-900/30 border border-green-800 rounded-xl p-8">
               <h3 className="text-2xl font-bold text-green-400 mb-4">The Warriors Way</h3>
               <ul className="space-y-3 text-gray-300">
-                <li>4-day focused academic schedule</li>
+                <li>4-day focused schedule with parent-led academics</li>
                 <li>Up to 4 hours of elite training daily</li>
                 <li>Families get their evenings back</li>
                 <li>Every student launches a real business</li>
@@ -116,7 +116,6 @@ export default function Home() {
           <p className="text-xl text-gray-300 text-center mb-12 max-w-3xl mx-auto">
             Warriors Academy leverages the same shooting technology used by NBA players to develop elite scorers. Our athletes do not just practice, they train with data.
           </p>
-
           <div className="bg-gray-900 rounded-2xl p-8 md:p-12 border border-gray-700 mb-12">
             <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">Dr. Dish CT <span className="text-green-500">Rebounding Machine</span></h3>
             <p className="text-gray-300 text-lg mb-8">
@@ -143,7 +142,6 @@ export default function Home() {
             <p className="text-gray-400 text-sm mb-4">Real-time stat tracking with heatmaps, progress charts, and custom drills for every player.</p>
             <a href="https://www.drdishbasketball.com" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 underline text-sm">Learn more about Dr. Dish &#8594;</a>
           </div>
-
           <div className="bg-gray-900 rounded-2xl p-8 md:p-12 border border-gray-700">
             <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">Shoot 360 <span className="text-green-500">Immersive Training</span></h3>
             <p className="text-gray-300 text-lg mb-8">
@@ -254,7 +252,7 @@ export default function Home() {
             </div>
             <div className="bg-gray-800 rounded-xl p-8 border border-gray-700">
               <h3 className="text-xl font-bold text-green-400 mb-3">Financial Literacy & Marketing</h3>
-              <p className="text-gray-300">Our enrichment days cover financial literacy, marketing, sales, and coding. Warriors students understand money, resources, and how to build real wealth, not just earn a paycheck.</p>
+              <p className="text-gray-300">Our enrichment days cover financial literacy, marketing, sales, coding, trusts, cryptocurrency, and blockchain. Warriors students understand money, resources, and how to build real wealth.</p>
             </div>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 mb-8">
@@ -308,7 +306,6 @@ export default function Home() {
                 <p className="text-green-400 text-sm">Warriors Academy</p>
               </div>
             </div>
-            {/* Audio player - replace src with actual file when uploaded */}
             <audio controls className="w-full" style={{filter: 'invert(1) hue-rotate(140deg)'}}>
               <source src="/warriors-fight-song.mp3" type="audio/mpeg" />
               Your browser does not support the audio element.
@@ -414,23 +411,23 @@ export default function Home() {
           <div className="space-y-6">
             <div className="bg-gray-900 rounded-xl p-6 border border-gray-700">
               <h3 className="text-lg font-bold text-green-400 mb-2">Is this a real school? Will my child get a diploma?</h3>
-              <p className="text-gray-300">Warriors Academy operates as a Missouri-compliant homeschool co-op. Our 4-day model meets all Missouri requirements including 1,000 hours of instruction covering math, reading, social studies, English, and science. Parents remain the primary educators and can issue diplomas under Missouri homeschool law.</p>
+              <p className="text-gray-300">Warriors Academy operates as a Missouri-compliant homeschool co-op. Missouri law requires parents to be responsible for at least 51 percent of their child's education. Parents handle core academics like math, English, reading, and science. Warriors Academy handles the enrichment: marketing, sales, AI, coding, finance, entrepreneurship, and elite athletic training. Students have a dedicated study hour each day to work on parent or teacher assignments. Parents can issue diplomas under Missouri homeschool law.</p>
             </div>
             <div className="bg-gray-900 rounded-xl p-6 border border-gray-700">
-              <h3 className="text-lg font-bold text-green-400 mb-2">Can my child still play for their public school sports team?</h3>
-              <p className="text-gray-300">Missouri does not currently have a Tim Tebow law allowing homeschoolers to play public school sports. However, our athletes compete in NCHC-sanctioned national homeschool tournaments and have access to elite-level competition and college recruiting exposure.</p>
+              <h3 className="text-lg font-bold text-green-400 mb-2">Can my child play sports at their public school?</h3>
+              <p className="text-gray-300">Yes. Missouri has passed the Tim Tebow law, which allows homeschool students to participate in sports at their local public school district. Warriors Academy students are welcome to play any sport that Warriors Academy does not offer at their public school in their district. This is a major advantage for multi-sport athletes who want the best of both worlds.</p>
             </div>
             <div className="bg-gray-900 rounded-xl p-6 border border-gray-700">
               <h3 className="text-lg font-bold text-green-400 mb-2">How does the 4-day schedule work?</h3>
-              <p className="text-gray-300">Two days per week focus on core academics (math, reading, English, science, social studies) completed in focused 2-3 hour blocks. Two additional days are dedicated to enrichment including athletics, entrepreneurship, financial literacy, and AI education. This model gives athletes up to 4 hours of training daily while exceeding academic standards.</p>
+              <p className="text-gray-300">Two days per week focus on enrichment including athletics, entrepreneurship, financial literacy, and AI education at the academy. Two additional days are structured for parent-led core academics at home completed in focused 2-3 hour blocks. Students also have a dedicated study hour during academy days to work on parent-assigned or teacher-assigned work. This model gives athletes up to 4 hours of training daily while exceeding academic standards. Children do not need to sit in classrooms all day to learn.</p>
             </div>
             <div className="bg-gray-900 rounded-xl p-6 border border-gray-700">
               <h3 className="text-lg font-bold text-green-400 mb-2">Do colleges accept homeschooled athletes?</h3>
               <p className="text-gray-300">Absolutely. Homeschoolers have an 87% college acceptance rate compared to 68% for public school students. Our custom recruiting profile pages with highlight films, verified stats, and interview videos give our athletes a significant edge. Multiple NCAA Division I athletes were homeschooled including Tim Tebow and Blake Griffin.</p>
             </div>
             <div className="bg-gray-900 rounded-xl p-6 border border-gray-700">
-              <h3 className="text-lg font-bold text-green-400 mb-2">What ages and grades do you accept?</h3>
-              <p className="text-gray-300">Warriors Academy serves student athletes in middle school and high school. Contact us to discuss your specific situation and how we can build a program around your athlete.</p>
+              <h3 className="text-lg font-bold text-green-400 mb-2">What if my child does not have a business idea yet?</h3>
+              <p className="text-gray-300">That is completely normal. We offer a Digital Marketing Track as the perfect entry point. Students learn affiliate marketing, content creation, and digital advertising through school-managed accounts. As a Christ-centered school, students never manage their own social media. The school creates business accounts, AI assists with content creation, and all posts go through teacher approval before publishing. Students learn the business strategy without ever scrolling a feed.</p>
             </div>
           </div>
           <div className="text-center mt-8">
