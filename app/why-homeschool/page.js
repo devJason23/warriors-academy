@@ -79,7 +79,7 @@ export default function WhyHomeschool() {
               <div className="text-green-500 text-2xl font-bold mt-1">01</div>
               <div>
                 <h3 className="text-xl font-bold">Academic Dominance in Half the Time</h3>
-                <p className="text-gray-300">Homeschoolers study just 3-5 hours per day yet consistently score in the 65th-80th percentile on standardized tests, crushing the public school 50th percentile average. Average SAT: 1190 vs 1060. Average ACT: 26.5 vs 21.0.</p>
+                <p className="text-gray-300">Homeschoolers study just 2-3 hours per day yet consistently score in the 65th-80th percentile on standardized tests, crushing the public school 50th percentile average. Average SAT: 1190 vs 1060. Average ACT: 26.5 vs 21.0.</p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
