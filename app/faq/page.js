@@ -93,7 +93,7 @@ export default function FAQ() {
     },
     {
       q: "What is the Big Brother Mentor Program?",
-      a: "Our Big Brother program is a structured mentorship system where high school players earn the right to train younger athletes. To qualify, a player must pass both a written knowledge test and a live performance test covering shooting, passing, rebounding, dribbling, and defensive mindset. Once they pass, they earn an official Big Brother badge. Younger athletes in the program can then schedule one-on-one or small group training sessions with their certified Big Brother. This builds leadership and teaching skills in the older players while giving younger athletes personalized mentorship from someone who has been in their shoes."
+      a: "Our Big Brother program is a development engine where older athletes take younger players under their wing and teach them the game from their own perspective. To qualify, older players must pass strict written AND on-court performance tests to earn specific skill badges: Knockdown Shooter, Lockdown Defender, Rebounding, and Court IQ. Each badge is earned independently. Once a player earns a badge, younger athletes can specifically book sessions with that Big Brother to develop that exact skill. Research shows that teaching a skill forces you to process it at a far deeper level than simply practicing it, so our older athletes are not just giving back, they are locking in their own mastery."
     },
     {
       q: "How much does the program cost?",

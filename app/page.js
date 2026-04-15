@@ -233,38 +233,73 @@ export default function Home() {
       <section className="py-16 px-4 bg-gray-900">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-4">
-            The <span className="text-green-500">Big Brother</span> Mentor Program
+            How Warriors <span className="text-green-500">Develop Leaders</span>
           </h2>
-          <p className="text-xl text-gray-300 text-center mb-12 max-w-3xl mx-auto">
-            At Warriors Academy, our older athletes do not just train, they lead. High school players earn the right to mentor younger athletes through a rigorous certification process that builds leadership, teaching ability, and accountability.
+          <p className="text-xl text-gray-300 text-center mb-4 max-w-3xl mx-auto">
+            The Big Brother Mentorship Program
           </p>
+          <p className="text-lg text-gray-400 text-center mb-12 max-w-3xl mx-auto">
+            Our older athletes take the young guns under their wing and teach them the game from their own perspective. This is not just a culture feature, it is a development engine. Research on learning by teaching shows that when you teach a skill, you process it at a far deeper level than when you simply practice it. Our older athletes are not just giving back. They are locking in their own mastery.
+          </p>
+
+          {/* Badge Economy */}
+          <h3 className="text-2xl font-bold text-center text-white mb-8">
+            The <span className="text-green-500">Badge Economy</span>
+          </h3>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
+            <div className="bg-gray-800 rounded-xl p-6 border border-green-500/30 text-center">
+              <div className="text-4xl mb-3">&#127919;</div>
+              <h4 className="text-lg font-bold text-green-400 mb-2">Knockdown Shooter</h4>
+              <p className="text-gray-400 text-sm">Prove you can shoot at an elite level through written knowledge and on-court performance testing.</p>
+            </div>
+            <div className="bg-gray-800 rounded-xl p-6 border border-green-500/30 text-center">
+              <div className="text-4xl mb-3">&#128737;</div>
+              <h4 className="text-lg font-bold text-green-400 mb-2">Lockdown Defender</h4>
+              <p className="text-gray-400 text-sm">Demonstrate elite on-ball defensive principles, positioning, and the mindset to shut down any opponent.</p>
+            </div>
+            <div className="bg-gray-800 rounded-xl p-6 border border-green-500/30 text-center">
+              <div className="text-4xl mb-3">&#128170;</div>
+              <h4 className="text-lg font-bold text-green-400 mb-2">Rebounding</h4>
+              <p className="text-gray-400 text-sm">Master box-out technique, positioning, timing, and the relentless effort it takes to control the glass.</p>
+            </div>
+            <div className="bg-gray-800 rounded-xl p-6 border border-green-500/30 text-center">
+              <div className="text-4xl mb-3">&#129504;</div>
+              <h4 className="text-lg font-bold text-green-400 mb-2">Court IQ</h4>
+              <p className="text-gray-400 text-sm">Prove you see the game at a higher level, reads, rotations, spacing, and decision-making under pressure.</p>
+            </div>
+          </div>
+
+          {/* How It Works */}
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="bg-gray-800 rounded-xl p-8 border border-gray-700 text-center">
               <div className="text-4xl mb-4">&#128221;</div>
-              <h3 className="text-xl font-bold text-green-400 mb-3">Written Test</h3>
-              <p className="text-gray-300">High school players must pass a written knowledge test covering shooting mechanics, passing fundamentals, defensive principles, dribbling technique, and rebounding positioning. If you cannot explain it, you do not know it well enough to teach it.</p>
+              <h3 className="text-xl font-bold text-green-400 mb-3">Pass the Tests</h3>
+              <p className="text-gray-300">Older athletes must pass strict written AND on-court performance tests for each badge. If you cannot explain it and demonstrate it, you have not earned the right to teach it.</p>
             </div>
             <div className="bg-gray-800 rounded-xl p-8 border border-gray-700 text-center">
               <div className="text-4xl mb-4">&#127942;</div>
-              <h3 className="text-xl font-bold text-green-400 mb-3">Performance Test</h3>
-              <p className="text-gray-300">Players must also pass a live performance test demonstrating the skills at a high level. You earn your badge by proving you can do what you teach. Shooting, passing, rebounding, dribbling, and defensive mindset are all evaluated by coaches.</p>
+              <h3 className="text-xl font-bold text-green-400 mb-3">Earn Your Badge</h3>
+              <p className="text-gray-300">Once you pass both tests, you earn an official Big Brother badge in that specific skill. Each badge is earned independently, so a player might be a certified Knockdown Shooter and Rebounding mentor but still working toward their Court IQ badge.</p>
             </div>
             <div className="bg-gray-800 rounded-xl p-8 border border-gray-700 text-center">
-              <div className="text-4xl mb-4">&#128205;</div>
-              <h3 className="text-xl font-bold text-green-400 mb-3">Earn Your Badge</h3>
-              <p className="text-gray-300">Once a player passes both tests, they earn an official Big Brother badge. Younger athletes in the program can then schedule one-on-one or small group training sessions with their certified Big Brother in any skill area they have earned.</p>
+              <div className="text-4xl mb-4">&#128197;</div>
+              <h3 className="text-xl font-bold text-green-400 mb-3">Book a Session</h3>
+              <p className="text-gray-300">Younger athletes can specifically book time with a certified Big Brother to develop the exact skill they need. Want to improve your shot? Book a session with a Knockdown Shooter. Need help reading the defense? Book a Court IQ mentor.</p>
             </div>
           </div>
+
+          {/* Why This Matters */}
           <div className="bg-gray-800 rounded-2xl p-8 md:p-10 border border-green-500/30">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
-                <h3 className="text-2xl font-bold text-white mb-4">Why This <span className="text-green-500">Matters</span></h3>
+                <h3 className="text-2xl font-bold text-white mb-4">Mastery Through <span className="text-green-500">Teaching</span></h3>
                 <ul className="space-y-3 text-gray-300">
-                  <li>Older players deepen their own understanding by teaching younger athletes</li>
-                  <li>Younger players get personalized mentorship from someone who has been in their shoes</li>
-                  <li>Builds a culture of servant leadership rooted in Christ-centered values</li>
-                  <li>Big Brothers develop real coaching and communication skills they carry for life</li>
-                  <li>Creates a family atmosphere where every athlete has someone invested in their growth</li>
+                  <li>When you teach a skill, you process it at a far deeper level than when you simply practice it</li>
+                  <li>Older athletes lock in their own mastery by teaching the next generation</li>
+                  <li>Younger players get mentorship from someone who has lived it, not just coached it</li>
+                  <li>Builds servant leadership and accountability rooted in Christ-centered values</li>
+                  <li>Big Brothers develop coaching and communication skills they carry for life</li>
+                  <li>Creates a family culture where every athlete has someone invested in their growth</li>
                 </ul>
               </div>
               <div className="text-center">
