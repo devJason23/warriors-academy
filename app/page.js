@@ -229,8 +229,55 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Entrepreneur Unschool Expanded */}
+      {/* Big Brother Mentor Program */}
       <section className="py-16 px-4 bg-gray-900">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-4">
+            The <span className="text-green-500">Big Brother</span> Mentor Program
+          </h2>
+          <p className="text-xl text-gray-300 text-center mb-12 max-w-3xl mx-auto">
+            At Warriors Academy, our older athletes do not just train, they lead. High school players earn the right to mentor younger athletes through a rigorous certification process that builds leadership, teaching ability, and accountability.
+          </p>
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
+            <div className="bg-gray-800 rounded-xl p-8 border border-gray-700 text-center">
+              <div className="text-4xl mb-4">&#128221;</div>
+              <h3 className="text-xl font-bold text-green-400 mb-3">Written Test</h3>
+              <p className="text-gray-300">High school players must pass a written knowledge test covering shooting mechanics, passing fundamentals, defensive principles, dribbling technique, and rebounding positioning. If you cannot explain it, you do not know it well enough to teach it.</p>
+            </div>
+            <div className="bg-gray-800 rounded-xl p-8 border border-gray-700 text-center">
+              <div className="text-4xl mb-4">&#127942;</div>
+              <h3 className="text-xl font-bold text-green-400 mb-3">Performance Test</h3>
+              <p className="text-gray-300">Players must also pass a live performance test demonstrating the skills at a high level. You earn your badge by proving you can do what you teach. Shooting, passing, rebounding, dribbling, and defensive mindset are all evaluated by coaches.</p>
+            </div>
+            <div className="bg-gray-800 rounded-xl p-8 border border-gray-700 text-center">
+              <div className="text-4xl mb-4">&#128205;</div>
+              <h3 className="text-xl font-bold text-green-400 mb-3">Earn Your Badge</h3>
+              <p className="text-gray-300">Once a player passes both tests, they earn an official Big Brother badge. Younger athletes in the program can then schedule one-on-one or small group training sessions with their certified Big Brother in any skill area they have earned.</p>
+            </div>
+          </div>
+          <div className="bg-gray-800 rounded-2xl p-8 md:p-10 border border-green-500/30">
+            <div className="grid md:grid-cols-2 gap-8 items-center">
+              <div>
+                <h3 className="text-2xl font-bold text-white mb-4">Why This <span className="text-green-500">Matters</span></h3>
+                <ul className="space-y-3 text-gray-300">
+                  <li>Older players deepen their own understanding by teaching younger athletes</li>
+                  <li>Younger players get personalized mentorship from someone who has been in their shoes</li>
+                  <li>Builds a culture of servant leadership rooted in Christ-centered values</li>
+                  <li>Big Brothers develop real coaching and communication skills they carry for life</li>
+                  <li>Creates a family atmosphere where every athlete has someone invested in their growth</li>
+                </ul>
+              </div>
+              <div className="text-center">
+                <p className="text-5xl font-black text-green-500 mb-2">Iron Sharpens Iron</p>
+                <p className="text-gray-400 italic">"As iron sharpens iron, so one person sharpens another." - Proverbs 27:17</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Entrepreneur Unschool Expanded */}
+      <section className="py-16 px-4 bg-gray-800">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-4">
             The <span className="text-green-500">Entrepreneur Unschool</span>
@@ -432,7 +479,7 @@ export default function Home() {
           </div>
           <div className="text-center mt-8">
             <Link href="/faq" className="text-green-400 hover:text-green-300 underline text-lg">
-              View All 22 Questions Answered
+              View All 23 Questions Answered
             </Link>
           </div>
         </div>

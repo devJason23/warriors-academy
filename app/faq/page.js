@@ -92,6 +92,10 @@ export default function FAQ() {
       a: "HoopSmith is our proprietary software platform for film review, game statistics, and player analytics. It gives coaches and players access to detailed performance data, highlight clips, and recruiting-ready content. HoopSmith is a key part of how we develop elite athletes and prepare them for the next level."
     },
     {
+      q: "What is the Big Brother Mentor Program?",
+      a: "Our Big Brother program is a structured mentorship system where high school players earn the right to train younger athletes. To qualify, a player must pass both a written knowledge test and a live performance test covering shooting, passing, rebounding, dribbling, and defensive mindset. Once they pass, they earn an official Big Brother badge. Younger athletes in the program can then schedule one-on-one or small group training sessions with their certified Big Brother. This builds leadership and teaching skills in the older players while giving younger athletes personalized mentorship from someone who has been in their shoes."
+    },
+    {
       q: "How much does the program cost?",
       a: "Contact us directly for current tuition and fee information. We work with families to make our program accessible. Our athletes also participate in team fundraising businesses as part of the entrepreneur curriculum, which helps offset costs."
     }
