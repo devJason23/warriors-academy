@@ -281,7 +281,7 @@ export default function WhyHomeschool() {
             </div>
             <div className="bg-gray-900 rounded-xl p-5 border border-gray-700">
               <h3 className="text-xl font-bold text-green-400 mb-1">Simone Biles</h3>
-              <p className="text-gray-400 text-sm">7-time Olympic medalist. Most decorated gymnast in history. Homeschooled starting in 6th grade so she could train at an elite level without fighting the traditional school schedule.</p>
+              <p className="text-gray-400 text-sm">11-time Olympic medalist and the all-time leader in Olympic gymnastics medals. Most decorated gymnast in history. Homeschooled starting in 6th grade so she could train at an elite level without fighting the traditional school schedule.</p>
             </div>
             <div className="bg-gray-900 rounded-xl p-5 border border-gray-700">
               <h3 className="text-xl font-bold text-green-400 mb-1">Blake Griffin</h3>

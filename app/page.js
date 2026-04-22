@@ -612,7 +612,7 @@ export default function Home() {
               <source src="/warriors-fight-song.mp3" type="audio/mpeg" />
               Your browser does not support the audio element.
             </audio>
-            <p className="text-gray-500 text-xs mt-3">Song coming soon. Check back for the official Warriors anthem.</p>
+            <p className="text-gray-500 text-xs mt-3">The official Warriors Academy anthem.</p>
           </div>
         </div>
       </section>
